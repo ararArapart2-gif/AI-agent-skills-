@@ -1,14 +1,3 @@
-# AI Agent Skills untuk Studi Kasus Magang
-
-Repository ini berisi **AI Agent Skills** yang dirancang untuk menggantikan atau membantu aktivitas repetitif pada 5 studi kasus magang. Skills ini mengikuti format standar Grok / agentskills.io (SKILL.md + resources).
-
-## Cara Menggunakan
-
-1. Clone atau download repository ini.
-2. Letakkan folder skill yang diinginkan ke direktori skills agent Anda (contoh: `~/.grok/skills/` atau sesuai platform).
-3. Agent akan otomatis mendeteksi skill berdasarkan `description` di frontmatter SKILL.md.
-4. Trigger dengan kata kunci terkait jobdesk (lihat masing-masing skill).
-
 ## Identifikasi Jobdesk & Aktivitas Repetitif yang Bisa Digantikan AI
 
 ### 1. Magang Administrasi Perkantoran Dinas Pemerintahan Daerah
@@ -108,39 +97,5 @@ Repository ini berisi **AI Agent Skills** yang dirancang untuk menggantikan atau
 ## Struktur Repository
 
 ```
-ai-agent-skills-magang/
-├── README.md
-├── admin-perkantoran-dinas/
-│   └── SKILL.md
-├── klinik-registrasi-anamnesa/
-│   └── SKILL.md
-├── digital-marketing-agency/
-│   └── SKILL.md
-├── hrd-perusahaan-sawit/
-│   └── SKILL.md
-└── bank-kredit-analisa/
-    └── SKILL.md
-```
 
-## Cara Upload ke GitHub (Public)
 
-1. Buat repository baru di GitHub (centang **Public**).
-2. Upload folder ini, atau:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: AI Agent Skills for 5 internship cases"
-   git branch -M main
-   git remote add origin https://github.com/USERNAME/REPO-NAME.git
-   git push -u origin main
-   ```
-3. Pastikan repository **Public** agar bisa diakses siapa saja.
-
-## Catatan
-
-- Skills ini bersifat **template generik**. Sesuaikan dengan SOP instansi/perusahaan masing-masing (format surat, form anamnesa, kebijakan kredit, dll).
-- AI Agent **membantu**, bukan menggantikan tanggung jawab manusia (terutama di klinik & bank yang sensitif data & keputusan).
-- Selalu review output AI sebelum digunakan resmi.
-- Data pribadi pasien/debitur harus di-handle sesuai UU PDP & kerahasiaan bank.
-
-Dibuat untuk keperluan studi kasus magang / tugas kampus.
